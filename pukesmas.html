@@ -35,6 +35,100 @@
         <img src="Gambar 3.PNG" alt="">
         <img src="Gambar 3.1.PNG" alt="">
         <img src="Gambar 3.2.PNG" alt="">
+        <style type="text/css">
+        table{
+            border :2px solid #1ABC9C;
+            width: 700px;
+            height: 250px;
+            margin-top: 50px;
+        }
+        th,td {
+            border: 2px solid #1ABC9C;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: white;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 40px;
+            margin-top: 40px;
+            color: black;
+        }
+
+
+
+    </style>
+<center>
+    <h1>Pengujian Proses Entry Data Pasien </h1>
+    <table class="table table-dark">
+        <thead>
+        <tr>
+          <th>Kebutuhan</th>
+          <th>Proses Pengujian</th>
+          <th>Hasil Yang Diharapkan</th>
+          <th>Hasil Pengujian</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td rowspan="2" align="center">Simpan pasien</td>
+          <td><strong>Simpan pasien(jika data benar)</strong></td>
+          <td>Data akan tersimpan ke database yaitu ke tabel pasien</td>
+          <td>Sesuai</td>
+        </tr>
+           <tr>
+          <td><strong>Simpan pasien(jika data salah)</strong></td>
+          <td>Tampil peringatan untuk memperbaiki data yang inputannya salah </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Ubah pasien</td>
+          <td><strong>Simpan pasien(jika data benar)</strong></td>
+          <td>Field yang diubah datanya akan berubah dan tersimpan di tabel pasien </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td><strong>Simpan pasien(jika data salah)</strong></td>
+          <td>Field yang diubah datanya tidak akan berubah dan akan memunculkan konfirmasi kesalahan  </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Hapus Simpan</td>
+          <td><strong>Simpan pasien(jika data benar)</strong></td>
+          <td>Data akan terhapus ke database yaitu ke tabel pasien </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td><strong>Simpan pasien(jika data salah)</strong></td>
+          <td>Data akan terhapus dari database yaitu dari tabel pasien </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td>Cetak Pasien</td>
+          <td><strong>Hubungkan ke printer </strong></td>
+          <td>Data pasien akan tercetak di kartu pasien yang memiliki barcode </td>
+          <td>Sesuai</td>
+        </tr>
+         <tr>
+          <td>Koreksi diagnosa</td>
+          <td><strong>Entry diagnosa sesuai kunjungan</strong></td>
+          <td>Diagnosa pasien terentry di form diagnosa </td>
+          <td>Sesuai</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Simpan diagnosa</td>
+          <td><strong>Simpan data diagnosa pasien jika data benar </strong></td>
+          <td>Data diagnosa akan tersimpan di tabel diagnosa </td>
+          <td>Sesuai</td>
+        </tr>
+         <tr>
+          <td><strong>Simpan data diagnosa pasien jika data salah </strong></td>
+          <td>Akan muncul pesan cek lagi diagnosa sudah sesuai apa belum  </td>
+          <td>Sesuai</td>
+        </tr>
+        </tbody>
+    </table>
 
          </center>
     </div>
